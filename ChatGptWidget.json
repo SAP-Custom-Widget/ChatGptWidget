@@ -1,0 +1,78 @@
+{
+    "id": "com.rohitchouhan.sap.chatgptwidget",
+    "version": "1.0.0",
+    "name": "ChatGPT Widget",
+    "description": "ChatGPT Custom Widget for SAP Analytics Cloud, To make your application more useful and effective.",
+    "newInstancePrefix": "ChatGptWidget",
+    "vendor": "Rohit Chouhan",
+    "eula": "",
+    "license": "MIT",
+    "icon": "https:\/\/raw.githubusercontent.com\/SAP-Custom-Widget\/ChatGptWidget\/main\/icon.png",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "com-rohitchouhan-sap-chatgptwidget",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/ChatGptWidget@1.0.0\/ChatGptWidget.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        },
+        {
+            "kind": "builder",
+            "tag": "com-rohitchouhan-sap-chatgptwidget-builder",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/ChatGptWidget@1.0.0\/ChatGptWidget_Builder.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "apiKey": {
+            "description": "Api Key of ChatGPT",
+            "type": "string",
+            "default": "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"
+        },
+        "max_tokens": {
+            "description": "Result Max Length",
+            "type": "integer",
+            "default": 1024
+        }
+    },
+    "methods": {
+        "setApiKey": {
+            "description": "Set Api Key of ChatGPT",
+            "parameters": [
+                {
+                    "name": "apiKey",
+                    "type": "string",
+                    "description": "Api Key of ChatGPT"
+                }
+            ],
+            "body": "this.apiKey = apiKey;"
+        },
+        "getApiKey": {
+            "returnType": "string",
+            "description": "Return Api Key of ChatGPT",
+            "body": "return this.apiKey;"
+        },
+        "setMax_tokens": {
+            "description": "Set Result Max Length",
+            "parameters": [
+                {
+                    "name": "max_tokens",
+                    "type": "integer",
+                    "description": "Result Max Length"
+                }
+            ],
+            "body": "this.max_tokens = max_tokens;"
+        },
+        "getMax_tokens": {
+            "returnType": "integer",
+            "description": "Return Result Max Length",
+            "body": "return this.max_tokens;"
+        }
+    },
+    "events": {
+        "onClick": {
+            "description": "User Clicked."
+        }
+    }
+}
