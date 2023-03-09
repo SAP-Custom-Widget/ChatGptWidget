@@ -80,7 +80,7 @@ input[type="color"]::-webkit-color-swatch {
         <tr>
     <td>
     <p>Api Key of ChatGPT</p>
-    <input id="builder_apiKey" type="password" placeholder="Enter Api Key of ChatGPT">
+    <input id="builder_apiKey" type="text" placeholder="Enter Api Key of ChatGPT">
     </td>
     </tr>
     <tr>
