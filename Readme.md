@@ -1,4 +1,13 @@
-
+# ⚠️ Important News
+ 
+> 🚨 This custom widget has been moved to  
+> 👉 <a href="https://github.com/SAP-Custom-Widget/ChatGPT">https://github.com/SAP-Custom-Widget/ChatGPT</a>  
+> 🛑 This repository will no longer be maintained.  
+> ✨ The new version is more powerful and offers multiple features.
+ 
+### ✨ Try new version : <a href="https://github.com/SAP-Custom-Widget/ChatGPT">https://github.com/SAP-Custom-Widget/ChatGPT</a> ✨
+### ✨ Try new version : <a href="https://github.com/SAP-Custom-Widget/ChatGPT">https://github.com/SAP-Custom-Widget/ChatGPT</a> ✨
+### ✨ Try new version : <a href="https://github.com/SAP-Custom-Widget/ChatGPT">https://github.com/SAP-Custom-Widget/ChatGPT</a> ✨
 
 <img src="https://raw.githubusercontent.com/SAP-Custom-Widget/ChatGptWidget/main/icon.png" width="100">
 
@@ -42,4 +51,5 @@ The widget has the following methods:
 
 ## About
 This widget is developed by [Rohit Chouhan](http://linkedin.com/in/itsrohitchouhan "Rohit Chouhan")
+
 
